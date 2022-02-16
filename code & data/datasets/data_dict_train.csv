@@ -1,0 +1,89 @@
+Name,Data Type,Values
+Id,int64, 
+PID,int64, 
+MS SubClass,int64,[ 60  20  50 180 160  70 120 190  85  30  90  80  75  45  40 150]
+MS Zoning,object,['RL' 'RM' 'FV' 'C (all)' 'A (agr)' 'RH' 'I (all)']
+Lot Frontage,float64,"min: 21.0 , avg: 69 , med: 68 , max: 313"
+Lot Area,int64,"min: 1300 , avg: 10065 , med: 9430 , max: 159000"
+Street,object,['Pave' 'Grvl']
+Alley,object,['NA' 'Pave' 'Grvl']
+Lot Shape,object,['IR1' 'Reg' 'IR2' 'IR3']
+Land Contour,object,['Lvl' 'HLS' 'Bnk' 'Low']
+Utilities,object,['AllPub' 'NoSeWa' 'NoSewr']
+Lot Config,object,['CulDSac' 'Inside' 'Corner' 'FR2' 'FR3']
+Land Slope,object,['Gtl' 'Sev' 'Mod']
+Neighborhood,object,"['Sawyer' 'SawyerW' 'NAmes' 'Timber' 'Edwards' 'OldTown' 'BrDale'
+ 'CollgCr' 'Somerst' 'Mitchel' 'StoneBr' 'NridgHt' 'Gilbert' 'Crawfor'
+ 'IDOTRR' 'NWAmes' 'Veenker' 'MeadowV' 'SWISU' 'NoRidge' 'ClearCr'
+ 'Blmngtn' 'BrkSide' 'NPkVill' 'Blueste' 'GrnHill' 'Greens' 'Landmrk']"
+Condition 1,object,['RRAe' 'Norm' 'PosA' 'Artery' 'Feedr' 'PosN' 'RRAn' 'RRNe' 'RRNn']
+Condition 2,object,['Norm' 'RRNn' 'Feedr' 'Artery' 'PosA' 'PosN' 'RRAe' 'RRAn']
+Bldg Type,object,['1Fam' 'TwnhsE' 'Twnhs' '2fmCon' 'Duplex']
+House Style,object,['2Story' '1Story' '1.5Fin' 'SFoyer' 'SLvl' '2.5Unf' '2.5Fin' '1.5Unf']
+Overall Qual,int64,"min: 1 , avg: 6 , med: 6 , max: 10"
+Overall Cond,int64,[8 5 7 6 3 9 2 4 1]
+Year Built,int64,"min: 1872 , avg: 1971 , med: 1974 , max: 2010"
+Year Remod/Add,int64,"min: 1950 , avg: 1984 , med: 1993 , max: 2010"
+Roof Style,object,['Gable' 'Hip' 'Flat' 'Mansard' 'Shed' 'Gambrel']
+Roof Matl,object,['CompShg' 'WdShngl' 'Tar&Grv' 'WdShake' 'Membran' 'ClyTile']
+Exterior 1st,object,"['HdBoard' 'VinylSd' 'Wd Sdng' 'BrkFace' 'Plywood' 'MetalSd' 'AsbShng'
+ 'CemntBd' 'WdShing' 'Stucco' 'BrkComm' 'Stone' 'CBlock' 'ImStucc'
+ 'AsphShn']"
+Exterior 2nd,object,"['Plywood' 'VinylSd' 'Wd Sdng' 'HdBoard' 'MetalSd' 'AsbShng' 'CmentBd'
+ 'Wd Shng' 'BrkFace' 'Stucco' 'Brk Cmn' 'ImStucc' 'Stone' 'CBlock'
+ 'AsphShn']"
+Mas Vnr Type,object,['BrkFace' 'None' nan 'Stone' 'BrkCmn']
+Mas Vnr Area,float64,"min: 0.0 , avg: 99 , med: 0 , max: 1600"
+Exter Qual,object,['Gd' 'TA' 'Ex' 'Fa']
+Exter Cond,object,['TA' 'Gd' 'Fa' 'Ex' 'Po']
+Foundation,object,['CBlock' 'PConc' 'BrkTil' 'Slab' 'Stone' 'Wood']
+Bsmt Qual,object,['TA' 'Gd' 'Fa' 'NA' 'Ex' nan 'Po']
+Bsmt Cond,object,['TA' 'Gd' 'NA' 'Fa' 'Po' 'Ex' nan]
+Bsmt Exposure,object,['No' 'Gd' 'Av' 'NA' 'Mn' nan]
+BsmtFin Type 1,object,['GLQ' 'Unf' 'ALQ' 'Rec' 'NA' 'BLQ' 'LwQ' nan]
+BsmtFin SF 1,float64,"min: 0.0 , avg: 442 , med: 368 , max: 5644"
+BsmtFin Type 2,object,['Unf' 'Rec' 'NA' 'BLQ' 'GLQ' 'LwQ' 'ALQ' nan]
+BsmtFin SF 2,float64,"min: 0.0 , avg: 47 , med: 0 , max: 1474"
+Bsmt Unf SF,float64,"min: 0.0 , avg: 567 , med: 474 , max: 2336"
+Total Bsmt SF,float64,"min: 0.0 , avg: 1057 , med: 994 , max: 6110"
+Heating,object,['GasA' 'GasW' 'Grav' 'Wall' 'OthW']
+Heating QC,object,['Ex' 'TA' 'Gd' 'Fa' 'Po']
+Central Air,object,['Y' 'N']
+Electrical,object,['SBrkr' 'FuseF' 'FuseA' 'FuseP' 'Mix']
+1st Flr SF,int64,"min: 334 , avg: 1164 , med: 1093 , max: 5095"
+2nd Flr SF,int64,"min: 0 , avg: 329 , med: 0 , max: 1862"
+Low Qual Fin SF,int64,"min: 0 , avg: 5 , med: 0 , max: 1064"
+Gr Liv Area,int64,"min: 334 , avg: 1499 , med: 1444 , max: 5642"
+Bsmt Full Bath,float64,"min: 0.0 , avg: 0 , med: 0 , max: 3"
+Bsmt Half Bath,float64,"min: 0.0 , avg: 0 , med: 0 , max: 2"
+Full Bath,int64,"min: 0 , avg: 1 , med: 2 , max: 4"
+Half Bath,int64,"min: 0 , avg: 0 , med: 0 , max: 2"
+Bedroom AbvGr,int64,"min: 0 , avg: 2 , med: 3 , max: 8"
+Kitchen AbvGr,int64,"min: 0 , avg: 1 , med: 1 , max: 3"
+Kitchen Qual,object,['Gd' 'TA' 'Fa' 'Ex']
+TotRms AbvGrd,int64,"min: 2 , avg: 6 , med: 6 , max: 15"
+Functional,object,['Typ' 'Mod' 'Min2' 'Maj1' 'Min1' 'Sev' 'Sal' 'Maj2']
+Fireplaces,int64,"min: 0 , avg: 0 , med: 1 , max: 4"
+Fireplace Qu,object,['NA' 'TA' 'Gd' 'Po' 'Ex' 'Fa']
+Garage Type,object,['Attchd' 'Detchd' 'BuiltIn' 'Basment' 'NA' '2Types' 'CarPort']
+Garage Yr Blt,float64,"min: 1895.0 , avg: 1978 , med: 1980 , max: 2207"
+Garage Finish,object,['RFn' 'Unf' 'Fin' 'NA' nan]
+Garage Cars,float64,"min: 0.0 , avg: 1 , med: 2 , max: 5"
+Garage Area,float64,"min: 0.0 , avg: 473 , med: 480 , max: 1418"
+Garage Qual,object,['TA' 'Fa' 'NA' 'Gd' 'Ex' 'Po' nan]
+Garage Cond,object,['TA' 'Fa' 'NA' 'Po' 'Gd' 'Ex' nan]
+Paved Drive,object,['Y' 'N' 'P']
+Wood Deck SF,int64,"min: 0 , avg: 93 , med: 0 , max: 1424"
+Open Porch SF,int64,"min: 0 , avg: 47 , med: 27 , max: 547"
+Enclosed Porch,int64,"min: 0 , avg: 22 , med: 0 , max: 432"
+3Ssn Porch,int64,"min: 0 , avg: 2 , med: 0 , max: 508"
+Screen Porch,int64,"min: 0 , avg: 16 , med: 0 , max: 490"
+Pool Area,int64,"min: 0 , avg: 2 , med: 0 , max: 800"
+Pool QC,object,['NA' 'Fa' 'Gd' 'Ex' 'TA']
+Fence,object,['NA' 'MnPrv' 'GdPrv' 'GdWo' 'MnWw']
+Misc Feature,object,['NA' 'Shed' 'TenC' 'Gar2' 'Othr' 'Elev']
+Misc Val,int64,"min: 0 , avg: 51 , med: 0 , max: 17000"
+Mo Sold,int64,"min: 1 , avg: 6 , med: 6 , max: 12"
+Yr Sold,int64,"min: 2006 , avg: 2007 , med: 2008 , max: 2010"
+Sale Type,object,['WD ' 'New' 'COD' 'ConLD' 'Con' 'CWD' 'Oth' 'ConLI' 'ConLw']
+SalePrice,int64,"min: 12789 , avg: 181469 , med: 162500 , max: 611657"
