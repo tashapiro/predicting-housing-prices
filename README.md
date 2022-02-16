@@ -1,4 +1,4 @@
-# Ames Housing Data and Kaggle Challenge
+# Predicting Housing Prices - Ames, Iowa
 
 For this project, the objective is to predict housing sale price in Ames, Iowa using various features and attributes describing the home property, e.g. Year Built, Neighborhood, Roof Type, Above Ground Living Squareefeet. 
 
